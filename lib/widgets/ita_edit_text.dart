@@ -5,12 +5,12 @@ class ItaEditText extends StatelessWidget {
   final TextEditingController? controlador;
   final FocusNode? focus;
 
-  ItaEditText({this.rotulo, this.controlador, this.focus});
+  const ItaEditText({Key? key, this.rotulo, this.controlador, this.focus}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final telaAltura = MediaQuery.of(context).size.height;
-    final telaLargura = MediaQuery.of(context).size.width;
+    // final telaLargura = MediaQuery.of(context).size.width;
 
     return Padding(
       padding: EdgeInsets.all(telaAltura * 0.015),
