@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 class Botao extends StatelessWidget {
-  late var onPress;
-  late var rotulo;
-  late var color;
-  Botao({required this.onPress, this.rotulo, this.color});
+  late final void Function()? onPress;
+  late final String rotulo;
+  late final Color? color;
+  // ignore: prefer_const_constructors_in_immutables
+  Botao({Key? key, required this.onPress, required this.rotulo, this.color}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
