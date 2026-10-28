@@ -3,6 +3,7 @@
 //! pasta GAlle não é exibida, veja em settings/exclude
 //!  versão 3.0
 
+
 //?  Nesta versão os campos decimais são digitados com ,(vírgula)
 //*
 
