@@ -21,11 +21,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Saquinhos v2.0s',
+      title: 'Saquinhos v4.0s',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Saquinhos - Expedição - v3.0'),
+      home: const MyHomePage(title: 'Saquinhos - Expedição - v4.0'),
     );
   }
 }
