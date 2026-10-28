@@ -2,6 +2,10 @@
 //!   PARA CELULARES E TABLETS
 //! pasta GAlle não é exibida, veja em settings/exclude
 //!  versão 3.0
+//* alterado em 28/10/26
+// instalado fvm
+// e configurado para a versao 3.24.1 do flutter
+// alterado o valor de 0,22 para 0,11 a pedido da Paola
 
 
 //?  Nesta versão os campos decimais são digitados com ,(vírgula)

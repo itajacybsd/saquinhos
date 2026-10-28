@@ -16,8 +16,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   static const List<Tab> tabs = <Tab>[
-    Tab(text: '0,15'),
     Tab(text: '0,11'),
+    Tab(text: '0,15'),
     Tab(text: '0,28'),
     Tab(text: '0,70'),
   ];
@@ -85,8 +85,8 @@ class _MyHomePageState extends State<MyHomePage>
             controller: tabController,
             dragStartBehavior: DragStartBehavior.down,
             children: [
-              tabSaquinho('0,15'),
               tabSaquinho('0,11'),
+              tabSaquinho('0,15'),
               tabSaquinho('0,28'),
               tabSaquinho('0,70'),
             ],
